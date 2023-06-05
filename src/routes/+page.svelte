@@ -48,5 +48,7 @@
 		playsinline
 		bind:this={video}
 		class={connected ? 'absolute top-0 left-0 w-full h-full object-cover' : 'hidden'}
-	/>
+	>
+	<track kind="captions"/>
+	</video>
 </div>
